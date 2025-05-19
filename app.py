@@ -96,8 +96,9 @@ if st.session_state.app_started:
             from gtts import gTTS # type: ignore
 
             # === Path Setup ===
-            main_folder = r"C:\Users\srira\Desktop\SignBridge_Gestures\SignBridge_Dataset\Speech to Symbol\Display symbol\Words"
-            output_folder = r"C:\Users\srira\Desktop\SignBridge_Gestures\SignBridge_Dataset\Speech to Symbol\Output"
+            main_folder = "GestureVideos"
+            output_folder = "GestureVideos/Output"
+
             os.makedirs(output_folder, exist_ok=True)
 
             # === Alias Map ===
@@ -232,7 +233,7 @@ if st.session_state.app_started:
             import os
 
             # === Load model and class labels ===
-            MODEL_PATH = r"C:\Users\srira\Desktop\SignBridge_Gestures\Model\gesture_model.h5"
+            MODEL_PATH = "Model/gesture_model1.h5"
             model = load_model(MODEL_PATH)
             CLASSES = ['Hello', 'I', 'From', 'Tamil_Nadu', 'Thank_You']
 
