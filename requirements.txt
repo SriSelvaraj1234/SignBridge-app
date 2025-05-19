@@ -1,8 +1,7 @@
 streamlit
 numpy
-pandas
-opencv-python
-mediapipe==0.10.7
 tensorflow
-gtts
-pygame
+opencv-python
+mediapipe
+pyttsx3
+Pillow
