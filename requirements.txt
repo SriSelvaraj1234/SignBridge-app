@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+opencv-python
+mediapipe
+tensorflow
+gtts
+pygame
+fuzzywuzzy
+python-Levenshtein
+requests
+openpyxl
