@@ -3,5 +3,8 @@ numpy
 tensorflow
 opencv-python
 mediapipe
-pyttsx3
+gtts
 Pillow
+moviepy
+fuzzywuzzy
+python-Levenshtein
