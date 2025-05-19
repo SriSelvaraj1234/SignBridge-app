@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 opencv-python
-mediapipe==0.10.9
+mediapipe==0.10.7
 tensorflow
 gtts
 pygame
