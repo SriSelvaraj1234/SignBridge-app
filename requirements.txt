@@ -6,7 +6,3 @@ mediapipe==0.10.9
 tensorflow
 gtts
 pygame
-fuzzywuzzy
-python-Levenshtein
-requests
-openpyxl
